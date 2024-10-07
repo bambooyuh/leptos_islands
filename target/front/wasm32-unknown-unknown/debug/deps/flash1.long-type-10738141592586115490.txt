@@ -1,0 +1,1 @@
+leptos::prelude::View<leptos::html::HtmlElement<Button, (Class<&str>, On<click, impl FnMut(MouseEvent) + 'static>), (leptos::tachys::view::static_types::Static<"Add">,)>>

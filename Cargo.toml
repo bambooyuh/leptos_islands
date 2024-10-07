@@ -1,0 +1,126 @@
+[package]
+name = "flash1"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["rlib"]
+
+[profile.release]
+codegen-units = 1
+lto = true
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+leptos = { version = "0.7.0-gamma", features = ["nightly", "experimental-islands"] }
+leptos_axum = { version = "0.7.0-gamma", optional = true }
+leptos_meta = { version = "0.7.0-gamma" }
+leptos_router = { version = "0.7.0-gamma", features = ["nightly"] }
+tracing = "0.1.40"
+axum = { version = "0.7.5", optional = true, features = ["http2"] }
+tower = { version = "0.4.13", optional = true }
+tower-http = { version = "0.5.2", features = [
+  "fs",
+  "compression-gzip",
+  "compression-br",
+], optional = true }
+tokio = { version = "1.39", features = ["full"], optional = true }
+http = { version = "1.1", optional = true }
+web-sys = { version = "0.3.70", features = ["AbortController", "AbortSignal"] }
+wasm-bindgen = "0.2.93"
+thiserror = "1"
+# When you include the derive feature in serde, you can use #[derive(Serialize, Deserialize)] on structs and enums 
+serde = { version = "1.0.210", features = ["derive"]}
+# optional = true means it indicates it will be used for server-side only
+uuid = { version = "1.10.0", features = ["v4", "js"] }  # Enable v4 and js features
+charts-rs = "0.3.17"
+cfg-if = "1.0.0"
+once_cell = "1.19.0"
+chrono = "0.4.38"
+num-format = "0.4.4"
+# The #[derive(Validate)] macro from the validator crate allows you to annotate fields in a struct 
+# with validation rules, and the crate will automatically generate code that performs these checks. 
+validator = { version = "0.18.1", features = ["derive"] }
+async-std = "1.13.0"
+rust-embed = { version = "8.5", features = [
+  "axum",
+  "mime_guess",
+  "tokio",
+], optional = true }
+mime_guess = { version = "2.0", optional = true }
+
+[features]
+csr = ["leptos/csr"]
+hydrate = ["leptos/hydrate"]
+ssr = [
+  "dep:axum",
+  "dep:tower",
+  "dep:tower-http",
+  "dep:tokio",
+  "dep:http",
+  "leptos/ssr",
+  "leptos_axum",
+  "leptos_meta/ssr",
+  "leptos_router/ssr",
+      "dep:rust-embed",
+    "dep:mime_guess",
+]
+
+[package.metadata.cargo-all-features]
+denylist = ["axum", "tower", "tower-http", "tokio", "http", "leptos_axum"]
+skip_feature_sets = [["csr", "ssr"], ["csr", "hydrate"], ["ssr", "hydrate"]]
+
+[package.metadata.leptos]
+# The name used by wasm-bindgen/cargo-leptos for the JS/WASM bundle. Defaults to the crate name
+output-name = "flash1"
+# The site root folder is where cargo-leptos generate all output. WARNING: all content of this folder will be erased on a rebuild. Use it in your server setup.
+site-root = "target/site"
+# The site-root relative folder where all compiled output (JS, WASM and CSS) is written
+# Defaults to pkg
+site-pkg-dir = "pkg"
+
+# Activates the tailwind build
+tailwind-input-file = "style/tailwind.css"
+tailwind-config-file = "tailwind.config.js"
+
+# [Optional] Files in the asset-dir will be copied to the site-root directory
+assets-dir = "assets"
+
+# The IP and port (ex: 127.0.0.1:3000) where the server serves the content. Use it in your server setup.
+#site-addr = "127.0.0.1:3000"
+site-addr = "0.0.0.0:8080"
+# The port to use for automatic reload monitoring
+reload-port = 3001
+# [Optional] Command to use when running end2end tests. It will run in the end2end dir.
+end2end-cmd = "npx playwright test"
+#  The browserlist query used for optimizing the CSS.
+browserquery = "defaults"
+# Set by cargo-leptos watch when building with that tool. Controls whether autoreload JS will be included in the head
+watch = false
+# The environment Leptos will run in, usually either "DEV" or "PROD"
+env = "DEV"
+# The features to use when compiling the bin target
+#
+# Optional. Can be over-ridden with the command line parameter --bin-features
+bin-features = ["ssr"]
+
+# If the --no-default-features flag should be used when compiling the bin target
+#
+# Optional. Defaults to false.
+bin-default-features = false
+
+# This feature will add a hash to the filename of assets.
+# This is useful here because our files are precompressed and use a `Cache-Control` policy to reduce HTTP requests
+#
+# Optional. Defaults to false.
+hash_file = true
+
+# The features to use when compiling the lib target
+#
+# Optional. Can be over-ridden with the command line parameter --lib-features
+lib-features = ["hydrate"]
+
+# If the --no-default-features flag should be used when compiling the lib target
+#
+# Optional. Defaults to false.
+lib-default-features = false

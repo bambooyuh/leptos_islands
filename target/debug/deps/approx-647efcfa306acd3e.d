@@ -1,0 +1,11 @@
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/libapprox-647efcfa306acd3e.rmeta: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/abs_diff_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/relative_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/ulps_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/macros.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/libapprox-647efcfa306acd3e.rlib: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/abs_diff_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/relative_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/ulps_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/macros.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/approx-647efcfa306acd3e.d: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/abs_diff_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/relative_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/ulps_eq.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/macros.rs
+
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/lib.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/abs_diff_eq.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/relative_eq.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/ulps_eq.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/approx-0.4.0/src/macros.rs:

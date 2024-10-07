@@ -1,0 +1,10 @@
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/librustls_pki_types-4d7032f3fb359f93.rmeta: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/base64.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/server_name.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/pem.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/librustls_pki_types-4d7032f3fb359f93.rlib: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/base64.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/server_name.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/pem.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/debug/deps/rustls_pki_types-4d7032f3fb359f93.d: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/base64.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/server_name.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/pem.rs
+
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/lib.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/base64.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/server_name.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pki-types-1.9.0/src/pem.rs:

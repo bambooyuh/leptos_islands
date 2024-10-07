@@ -1,0 +1,11 @@
+/Users/johnroach/Documents/Rust_projects/flash1/target/front/debug/deps/libmanyhow-086edc7f53484c92.rmeta: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/span_ranged.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/macro_rules.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/error.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/parse_to_tokens.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/front/debug/deps/libmanyhow-086edc7f53484c92.rlib: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/span_ranged.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/macro_rules.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/error.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/parse_to_tokens.rs
+
+/Users/johnroach/Documents/Rust_projects/flash1/target/front/debug/deps/manyhow-086edc7f53484c92.d: /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/lib.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/span_ranged.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/macro_rules.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/error.rs /Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/parse_to_tokens.rs
+
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/lib.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/span_ranged.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/macro_rules.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/error.rs:
+/Users/johnroach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.10.4/src/parse_to_tokens.rs:
