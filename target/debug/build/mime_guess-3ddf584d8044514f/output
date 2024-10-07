@@ -1,1 +1,0 @@
-cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/Users/johnroach/Documents/Rust_projects/flash1/target/debug/build/mime_guess-3ddf584d8044514f/out/mime_types_generated.rs

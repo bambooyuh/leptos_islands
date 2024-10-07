@@ -1,1 +1,0 @@
-fn(AddButtonProps<{closure@src/pages/team_page.rs:42:20: 42:27}>) -> impl leptos::IntoView {AddButton::<{closure@src/pages/team_page.rs:42:20: 42:27}>}
